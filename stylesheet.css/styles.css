@@ -1,0 +1,46 @@
+body {
+	margin: 0;
+	padding: 0;
+    background-color: #a2d5c6;
+    width: auto;
+}
+
+.second-container{
+    height: calc(120px - 880px);
+}
+
+.ctm{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: calc(120px + 50px);
+}
+
+
+
+
+@media screen and (max-width: 1000px) {
+
+   .container{
+    width: 0;
+    margin-left: 0;
+   }
+
+    .whole{
+        margin: auto;
+        width: 100%;
+        padding: auto;
+    }
+
+    nav.navbar{
+        padding-right: 0;
+    }
+
+    body{
+        width: 900px;
+    }
+
+    .second-container{
+        height: calc(120px - 880px);
+        width: 900px;
+    }
+}
